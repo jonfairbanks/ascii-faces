@@ -4,7 +4,7 @@ Get yerself some ascii faces! (⌐■\_■)
 
 [![NPM](https://nodei.co/npm/ascii-faces.png)](https://nodei.co/npm/ascii-faces/)
 
-you can use this on the CLI or from Node or client-side JS programs
+You can use `ascii-face` on the CLI or from Node or client-side JS programs!
 
 ### CLI Usage
 
