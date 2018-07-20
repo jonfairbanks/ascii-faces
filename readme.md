@@ -1,42 +1,30 @@
-# cool-ascii-faces
+# ascii-faces
 
-get some cool ascii faces
+Get yerself some ascii faces! (⌐■\_■)
 
-[![NPM](https://nodei.co/npm/cool-ascii-faces.png)](https://nodei.co/npm/cool-ascii-faces/)
+[![NPM](https://nodei.co/npm/ascii-faces.png)](https://nodei.co/npm/ascii-faces/)
 
 you can use this on the CLI or from Node or client-side JS programs
-
-there are also a number of projects built on top of the `cool-ascii-face` platform:
-
-- https://github.com/kid-icarus/web-cool-ascii-faces
-- https://npmjs.org/package/hubot-cool-ascii-faces
-- https://github.com/btford/alfred-cool-ascii-faces
-- https://github.com/mgyarmathy/cool-face-service
-
-## sorry pedants!
-
-yes i know r mostly unicode
-deal wit it (⌐■_■)
 
 ### CLI Usage
 
 ```
-npm install cool-ascii-faces -g
-cool-face [-a | --all]
+npm install ascii-faces -g
+ascii-face [-a | --all]
 ```
 
 ### JS Usage
 
 ```
-var cool = require('cool-ascii-faces')
+var ascii = require('ascii-faces')
 
-console.log(cool())
+console.log(ascii())
 ᕙ༼ຈل͜ຈ༽ᕗ
 
-console.log(cool())
+console.log(ascii())
 ( ͝° ͜ʖ͡°)
 
-cool.faces // all the faces in one convenient array
+ascii.faces // All the faces in one convenient array
 [
   "( .-. )",
   "( .o.)",
@@ -57,6 +45,7 @@ cool.faces // all the faces in one convenient array
   "(ʘ‿ʘ)",
   "(̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄",
   "(͡° ͜ʖ ͡°)",
+  "ᕦ( ͡° ͜ʖ ͡°)ᕤ",
   "(ಠ_ಠ)",
   "(ಠ‿ಠ)",
   "(ಠ⌣ಠ)",
@@ -94,7 +83,7 @@ cool.faces // all the faces in one convenient array
   "~(˘▾˘~)",
   "¬_¬",
   "¯(°_o)/¯",
-  "¯\_(ツ)_/¯",
+  "¯\\_(ツ)_/¯",
   "°Д°",
   "ɳ༼ຈل͜ຈ༽ɲ",
   "ʅʕ•ᴥ•ʔʃ",
@@ -134,7 +123,7 @@ cool.faces // all the faces in one convenient array
   "ᕙ(⇀‸↼‶)ᕗ",
   "ᕙ༼ຈل͜ຈ༽ᕗ",
   "ᶘ ᵒᴥᵒᶅ",
-  "‎‎(ﾉಥ益ಥ）ﾉ",
+  "(ﾉಥ益ಥ）ﾉ",
   "≧☉_☉≦",
   "⊙▃⊙",
   "⊙﹏⊙",
@@ -166,6 +155,8 @@ cool.faces // all the faces in one convenient array
   "﴾͡๏̯͡๏﴿",
   "｡◕‿◕｡",
   "ʕノ◔ϖ◔ʔノ",
+  "(ノಠ益ಠ)ノ彡┻━┻",
+  "(╯°□°）╯︵ ┻━┻",
   "꒰•̥̥̥̥̥̥̥ ﹏ •̥̥̥̥̥̥̥̥๑꒱",
   "ಠ_ರೃ",
   "(ू˃̣̣̣̣̣̣︿˂̣̣̣̣̣̣ ू)",
@@ -200,10 +191,121 @@ cool.faces // all the faces in one convenient array
   "(((╹д╹;)))",
   "•̀.̫•́✧",
   "(ᵒ̤̑ ₀̑ ᵒ̤̑)",
-  "\_(ʘ_ʘ)_/"
+  "\\_(ʘ_ʘ)_/",
+  "乙(ツ)乙",
+  "乙(のっの)乙",
+  "ヾ(¯∇￣๑)",
+  "\\_(ʘ_ʘ)_/",
+  "༼;´༎ຶ ۝ ༎ຶ༽",
+  "(▀̿Ĺ̯▀̿ ̿)",
+  "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+  "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)",
+  "┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴",
+  "┬┴┬┴┤(･_├┬┴┬┴",
+  "(͡ ͡° ͜ つ ͡͡°)",
+  "( ͡°╭͜ʖ╮͡° )",
+  "(• ε •)",
+  "[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]",
+  "| (• ◡•)| (❍ᴥ❍ʋ)",
+  "(◕‿◕✿)",
+  "(╯°□°)╯︵ ʞooqǝɔɐɟ",
+  "(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)",
+  "(づ￣ ³￣)づ",
+  "(;´༎ຶД༎ຶ`)",
+  "♪~ ᕕ(ᐛ)ᕗ",
+  "༼ つ  ͡° ͜ʖ ͡° ༽つ",
+  "༼ つ ಥ_ಥ ༽つ",
+  "ಥ_ಥ",
+  "( ͡ᵔ ͜ʖ ͡ᵔ )",
+  "ヾ(⌐■_■)ノ♪",
+  "~(˘▾˘~)",
+  "\\ (•◡•) /",
+  "(~˘▾˘)~",
+  "(._.) ( l: ) ( .-. ) ( :l ) (._.)",
+  "༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽",
+  "┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻",
+  "ᕦ(ò_óˇ)ᕤ",
+  "(•_•) ( •_•)>⌐■-■ (⌐■_■)",
+  "(☞ຈل͜ຈ)☞",
+  "˙ ͜ʟ˙",
+  "☜(˚▽˚)☞",
+  "(｡◕‿◕｡)",
+  "（╯°□°）╯︵( .o.)",
+  "(っ˘ڡ˘ς)",
+  "┬──┬ ノ( ゜-゜ノ)",
+  "ಠ⌣ಠ",
+  "( ಠ ͜ʖರೃ)",
+  "ƪ(˘⌣˘)ʃ",
+  "¯\\(°_o)/¯",
+  "ლ,ᔑ•ﺪ͟͠•ᔐ.ლ",
+  "(´・ω・`)",
+  "(´・ω・)っ由",
+  "(° ͡ ͜ ͡ʖ ͡ °)",
+  "ಠ_ಥ",
+  "ಠ‿↼",
+  "(>ლ)",
+  "(▰˘◡˘▰)",
+  "(✿´‿`)",
+  "◔ ⌣ ◔",
+  "┬─┬ノ( º _ ºノ)",
+  "(/) (°,,°) (/)",
+  "┬─┬ ︵ /(.□. ）",
+  "^̮^",
+  "(>人<)",
+  "(~_^)",
+  "(･.◤)",
+  ">_>",
+  "(^̮^)",
+  "=U",
+  "(｡╹ω╹｡)",
+  "ლ(╹◡╹ლ)",
+  "(●´⌓`●)",
+  "（[∂]ω[∂]）",
+  "U^ｴ^U",
+  "(〒ó〒)",
+  "(T^T)",
+  "(íoì)",
+  "(#•v•#)",
+  "(•^u^•)",
+  "!(^3^)!",
+  "\\(°°\\”)",
+  "(°o°:)",
+  "(° o°)!",
+  "(oﾛo)!!",
+  "(òロó)",
+  "(ò皿ó)",
+  "(￣･_______･￣)",
+  "ヾ(๑╹◡╹)ﾉ'",
+  "(ლ╹◡╹)ლ",
+  "（◞‸◟）",
+  "(✿◖◡◗)",
+  "(　´･‿･｀)",
+  "❤(◕‿◕✿)",
+  "(◡‿◡*)❤",
+  "(o'ω'o)",
+  "(｡･ˇ_ˇ･｡)ﾑｩ…",
+  "(つД⊂)ｴｰﾝ",
+  "(つД・)ﾁﾗ",
+  "(*´ω｀*)",
+  "(✪‿✪)ノ",
+  "╲(｡◕‿◕｡)╱",
+  "ლ(^o^ლ)",
+  "-.-",
+  "-__-",
+  "-_-",
+  "(☉◡☉)",
+  "(｡◝‿◜｡)",
+  "^⨀ᴥ⨀^",
+  "♛◕_◕♛",
+  "♛◕◡◕♛",
+  "♛◕◠◕♛",
+  "(▰_▰)",
+  "(▰‿▰)",
+  "(♬_♬)",
+  "(╯°Д°)╯︵ ┻━┻"
 ]
 
-cool.faceStream()
-// create a readable stream of all the faces
+ascii.faceStream()
+// Create a readable stream of all ascii-faces
 ```
 
