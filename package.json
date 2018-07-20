@@ -1,6 +1,6 @@
 {
   "name": "ascii-faces",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get yerself some ascii faces! (⌐■_■)",
   "main": "index.js",
   "bin": {
@@ -10,7 +10,7 @@
     "test": "node test.js"
   },
   "author": "Jon Fairbanks",
-  "license": "BSD",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/jonfairbanks/ascii-faces.git"
